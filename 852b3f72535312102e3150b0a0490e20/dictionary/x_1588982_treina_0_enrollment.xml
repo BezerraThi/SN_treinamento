@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6dfd7b76535312102e3150b0a0490e1e" extends="task" label="Enrollment" max_length="40" name="x_1588982_treina_0_enrollment" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Student" max_length="32" name="student" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Agenda" max_length="32" name="agenda" reference="x_1588982_treina_0_agenda" type="reference"/>
     </element>
 </database>

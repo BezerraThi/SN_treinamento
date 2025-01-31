@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</contains>
+        <role display_value="x_1588982_treina_0.administrator" name="x_1588982_treina_0.administrator">452b3f72535312102e3150b0a0490e52</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:45:44</sys_created_on>
+        <sys_id>48d3baf353d712102e3150b0a0490e22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approver_user.x_1588982_treina_0.administrator</sys_name>
+        <sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name>sys_user_role_contains_48d3baf353d712102e3150b0a0490e22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:45:44</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</application>
+        <file_path/>
+        <instance_id>d7023d1d1be23d98ba5ceb9b2d4bcbc0</instance_id>
+        <instance_name>dev212614</instance_name>
+        <name>sys_user_role_contains_48d3baf353d712102e3150b0a0490e22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</contains><role display_value="x_1588982_treina_0.administrator" name="x_1588982_treina_0.administrator">452b3f72535312102e3150b0a0490e52</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-31 18:45:44</sys_created_on><sys_id>48d3baf353d712102e3150b0a0490e22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>approver_user.x_1588982_treina_0.administrator</sys_name><sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package><sys_policy/><sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope><sys_update_name>sys_user_role_contains_48d3baf353d712102e3150b0a0490e22</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-31 18:45:44</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-486201521</payload_hash>
+        <record_name>approver_user.x_1588982_treina_0.administrator</record_name>
+        <reverted_from/>
+        <source>1ffb3f72535312102e3150b0a0490e0c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:45:44</sys_created_on>
+        <sys_id>50d3baf353d712102e3150b0a0490e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194bdaeeb400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:45:44</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>54d3baf30dd71210280e63c955aab229</update_guid>
+        <update_guid_history>54d3baf30dd71210280e63c955aab229:-486201521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:46:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>274fac7693bc49839e739e678b6ba009</sys_id>
+        <sys_metadata>48d3baf353d712102e3150b0a0490e22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approver_user.x_1588982_treina_0.administrator</sys_name>
+        <sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_scope_delete display_value="">0d5904808f2045bb8259bf0653dd24c9</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_48d3baf353d712102e3150b0a0490e22</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_48d3baf353d712102e3150b0a0490e22">50d3baf353d712102e3150b0a0490e2a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:46:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

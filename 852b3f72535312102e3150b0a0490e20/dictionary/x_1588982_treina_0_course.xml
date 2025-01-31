@@ -3,5 +3,12 @@
         <element label="Translated Description" max_length="4000" name="translated_description" type="string"/>
         <element display="true" label="Name Course" max_length="250" name="name_course" type="string"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
+        <element choice="3" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="200" value="4"/>
+            </choice>
+        </element>
     </element>
 </database>

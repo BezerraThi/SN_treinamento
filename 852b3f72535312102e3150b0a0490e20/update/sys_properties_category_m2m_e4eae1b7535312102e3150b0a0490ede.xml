@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Treinamento">0a23ade7539f92102e3150b0a0490ee7</category>
+        <order>300</order>
+        <property display_value="x_1588982_treina_0.treinamento_endpoint" name="x_1588982_treina_0.treinamento_endpoint">e5b3292b539f92102e3150b0a0490e2a</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 13:27:05</sys_created_on>
+        <sys_id>e4eae1b7535312102e3150b0a0490ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588982_treina_0.treinamento_endpoint.Treinamento</sys_name>
+        <sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_e4eae1b7535312102e3150b0a0490ede</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 13:27:05</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
