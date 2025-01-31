@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>treinamento__api_integration</internal_name>
+        <label_cache>[{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"f07e77ba-e89d-453b-9f27-cce8dcf1a97d":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d3522543-bd81-441b-bff6-902cb1527e44"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Treinamento - API Integration</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:13:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0d2a9a7539f92102e3150b0a0490e9e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Treinamento - API Integration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name>sys_hub_flow_b0d2a9a7539f92102e3150b0a0490e9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:26</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT INc9d2e5e7539f92102e3150b0a0490e35"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b0d2a9a7539f92102e3150b0a0490e9e</id>
+        <name>Treinamento - API Integration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:13:25</sys_created_on>
+        <sys_id>c9d2e5e7539f92102e3150b0a0490e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:13:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c9d2e5e7539f92102e3150b0a0490e35"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT IN208032675317d2102e3150b0a0490e94,5080f6275317d2102e3150b0a0490e61"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 23:52:48</sys_created_on>
+        <sys_id>208032675317d2102e3150b0a0490e94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:52:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=208032675317d2102e3150b0a0490e94"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 23:52:48</sys_created_on>
+        <sys_id>5080f6275317d2102e3150b0a0490e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:52:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5080f6275317d2102e3150b0a0490e61"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT INe88032675317d2102e3150b0a0490eaf"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 23:52:48</sys_created_on>
+        <sys_id>e88032675317d2102e3150b0a0490eaf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:25</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACutixnbet7UUDbDeok20fglSgpKFNlKZciVLiLvLvHepiy7r4nk3yEsAkxTlzeOYMmYfvOicucP1avycuB72jMyEhFITfr5aAw1INO4Is1NyCCJ/IIFzp1zKMoaMHoQ+hfm129ITwGO5W0Y2PH+HS9Iv8cz2fxt/PjtkbDIYDy5EhMEEcw/GCOIzUGp9FS05Wf+ZLR8W4N2fcD0Ho1w+PHX1JQtxaqrDfK1NMxfaoR4YWGJ5t2pZlGNaga7pXtmtavk3AMHDDasoVrLIh802i8CxB+IChKOERNJASAvFvBV+tV8yR04yVBXmO2H+4+8BQ6yggdg+yufVPJyciG/bmAfPgdilZILKRDGc2GfB4Ib5m+BWFQEnMZUEhjsQR7gdLBVmByBHRu3nwNC0CfmYizS6f5IFH+PoXkTJkbiwhUoRTxpF6J+MmwhNK0U8no9vp2Pnr0/3ot8nUmU7u7qc3o/vJWH9J83L+jdWOGcIci5Ol87I+988MuDpAxfhGFJEXsqX85EmWQI7ppbNR7SgQPkupqSnXK6aibeXmeRUnahit4vVKmxcC/nvyR12q2eBxOr26IsQH0qJTl5Z0Wk6yAZpsyLec3S7F5iOHSLZrGG8k2qysTtbsIvCBjzfb6Tg5m6GKmVjGUrH1RISMHBk4xPedEo9qKWLaJ+Ist5e9Yg1jgR846/OoSzalbc3fFxYh3AesuoKbdEucp1/yLaex0AI8OPyjeXGI1Eit8DF6syCznFF6Bxw8WRIB/RaVf/3OooiJWQn1OmjKQS3mOhyKSStSymJHZwZ/PLFe6/wmFd4qdXt00ZompS5Qy+irkjUN26Wm0Td6hPq2YXhWqWjrYFpRysrpv0rxHle6Uao7foDKqhTn4I2y8A9STLItt4IEpYbcIUaXgWZeCJqloFWczj7K6tayzIbH2+rcldqF2zrxE4Jf+Ic63oFmR3nwhC57gtG5xPtnFgax8KvOo/bUmNA2K7Sfcv5+vqDp0SCE3QC2V7yR3W0YLjRKxOoCRmdT0x1CFwz0Nxutze0Nh65HLEr7V32wzIrRbWA0YvsQBrdHWEmTMtvMrlEjSZO0jrC5MwDWLO9ogOebXS7MRqvL5j6GqT3NQTgINXS4sq2at80486GYO7mwa1GSTSmfW9x0MPR6Zr/v9fHZgcVNu+ASs2v1yLB/ZQ96leKuQdkFUzaQ8EMeI9EqSoG0FP63bOp9vaZfU6ERSKmazPG9V+DtNP2GZEFK/U8di5b6RxBqXwPxy81mnXYH2NbSF+mlmvAhKNTBaq8Lww3kvHYLwNC/4vhWaHV7bGHlLd9EFT0k22md/SaC7qA3pHazm9Bhk5tswLTDfPeXhgOLIWktq6bbw6HaThpLpLXdn6DWikzK94AdF5VLkWJenBTr9Uixz74cFbXY+hA8BewH6lbpFeKclqVighPQsk+PAw0nNAyiMarl//XDd7270uQckFKOt2AMqKno5xp0uWHUoawV/GOBZPfqWuPCYS2/K71pT6qc+mWfsOD3Sa9nt9xyh9UnbBOgPXjffYc6ugCSpnra2aaO27e6Z2OjKqlzWxEHtqCLZt3ch87LurET7cv6/B6z6wHegOKddo/H/wHkFs/stB4AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT IN1196e12f539f92102e3150b0a0490e52"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Currency API Integration">dbcc19d1535712102e3150b0a0490ef7</action_type>
+        <action_type_parent display_value="Currency API Integration">957124d5531312102e3150b0a0490ea1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>26b03fdd-4173-42b1-b394-e03bb5f402c0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:29:49</sys_created_on>
+        <sys_id>1196e12f539f92102e3150b0a0490e52</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:26</sys_updated_on>
+        <ui_id>fb0a9341-6ae9-4e7f-9045-109b03bc0d52</ui_id>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT IN0b4569ab539f92102e3150b0a0490e59,0f4569ab539f92102e3150b0a0490e5a,1825a5ab539f92102e3150b0a0490e18,5596e12f539f92102e3150b0a0490e50,9996e12f539f92102e3150b0a0490e51,dd96e12f539f92102e3150b0a0490e52"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">034569ab539f92102e3150b0a0490e59</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:24:12</sys_created_on>
+        <sys_id>0b4569ab539f92102e3150b0a0490e59</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:25</sys_updated_on>
+        <ui_id>f07e77ba-e89d-453b-9f27-cce8dcf1a97d</ui_id>
+        <values>H4sIAAAAAAAA/+2UXWvbMBSG/0rQtTH+qMOam1E2CoVthbX0ZivmWJaTw2TJk+SkWch/35Flp6FNWRi73F30nq/3HD9kx3Tvut7Ze31lLS4VW3x7jBgqr9HvHVPQCrZgXKsaHWpVDkLE1iB7H7hRTiwN+NAM7QwVcIdrMXtPOTXaTsL24YxUvkJZGzHO78DQFCcMW+xehNy2E6WESkjqeOcMqiWVY02vJoEmveQpz7N5niVJ9u4ireZ5lWZ1DgJyypsKP0zrzD4NSvTmnn4e6XaapE3tbaVJxMSTE6oWNLoBaUXEWlA1OG22B8UIqG+VfBZWqBy1Yz75yeIv6p0VhU9sBO3IRQgenuV4wyDzlUYubjtvMCgOKjnWcC37Vn0Je/jriwZ66abrk9Jb6ic6b9q7GC01dyu9+ToNvEY1LDgGpeYgDy9wdIaqd8L6DyOkaKlR2ULX0XHKzug1DsXkpY2Xkh5xI/WGhnq2Yv+9tYrpRhBfk/5xkB/AoN/iM7Wh4mCzAou8HDikds7QCvvhLOXP3hsKC46rlOEalGC5wc5dDVyNrvfRa4iP+N3tBofr0UQcmNzvv/dJktdDh9ckn1f0L5i+hKIp0qQ4zfTF/BTTJ2h+G+TsDyD705/JcZIk/0E+BhltGYAcdwtg/C3Hjx7aMMEGbmrB0ZKRe6/dTP/ZPrAlAJAfSxttfvgVnrX9b0C2GKn9BQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">074569ab539f92102e3150b0a0490e5a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>f07e77ba-e89d-453b-9f27-cce8dcf1a97d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:24:12</sys_created_on>
+        <sys_id>0f4569ab539f92102e3150b0a0490e5a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:26</sys_updated_on>
+        <ui_id>7cb8dbd0-ea89-40fd-a74c-2f4ad6219477</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9825a5ab539f92102e3150b0a0490e17</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <flow_variables_assigned>active,retry_count,retry_timeout,integration_succesfull,current_try</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:29</sys_created_on>
+        <sys_id>1825a5ab539f92102e3150b0a0490e18</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:25</sys_updated_on>
+        <ui_id>d8c618b5-ea58-4c51-af43-02d9dd5877a0</ui_id>
+        <values>H4sIAAAAAAAA/+2aW2+bShDHv4rFU49kfJabgfSpahUpUm9q3L6cVmivzqproMuSxI383TsL2OY4ritFdtS0vMGw7Px3dn6eZeQ7p6hNWZtqVryoKjnPnbP/vowdmVsbXN85OV5w58zB1Mhr7oyda6xqa0BwzWRVKrz81JkEVpUdQq+kYpp3c5VYwxSGa+fsbueRWZY8U5hwBW/PdM3/Pe+mkMy6oH40jTCJglSkvod8HngRIgijMEWcEBi3fvnFWt6uXOsC7klRKI5zMBSaWSlo7PBbw3PGwVMjfOwscM6wKfRyY9Ecs3e52hquZG5gOscOvq3kd5g7RHac4LAqyttnm9usi1BrpleFpPxdaWSRtxaDiereoYWqF/nbVr6NLRe4VmY3tp351f7I1xW45KVdltXZiRaXV8XNh7Wmc5k3EegeqoJitbnDxmhJasMru1u1nO2GrzW93rdnXPEFuM0WuCxlPs9KXVzLxhUsbjGZK7iZCFXcgESbahO7SUU+gZjjyTnYXzXmT1hLG5Y3MA28bF1+zOW3ml/YnGBB5PtRGLiEJZ4bhh5xiRBTN0U+JV7kxzwMnVWzBdm32q6sDWYXk6yNPAyoqJal6fLmzMBC1ja78i5/4OrQOPBiap2P5tVkzs17XYBgs3z22bnNvChJ0sTPjOYyxxmaQOLwucZ2xVk7+2dnPGrC/s9zZ7VajTeswax6mdGihj3cAneftwejdmG1NLFtOIuSQ5wBIFvOPlhpo5edtL16O+LkxscTJe6EOG1j83+ctvvyKCz5yPO9aRC7QUSYG2KCXRIK6oYJDcAeYpz4R2Cpnx4nAqrnwlIV7CfKyAWHcvc4TB2sXQLdY2q2EfcTzQNXT4WrxKMiZhFwRZMQalSauin1AxfHPIY6Ffs44Ufjap0gJyWrc2LZmqJduPrDq5pSXolaqR5l3n3MrLgjnhQ9qGD4p7ShPm0XW7Wjy77aX61mOEn+WSdJHsZY4EC4npjCSTIRyE0TD7liShiDr4twGuIHUNosv0cHrbW2wwGjw0h4Rys94cHjHO7B8LIVN5o14vYqHsrOkyk7AWM48oVLwySyZSd2E49Ql8Vk6iWcEhqgByf0F5u7rfe2L9Ck2p4P7qE/MPyqD/2B0/QHdpgb+gS/A3l/fmH5C/oEe8ka+gUDX0O/4Hj9gh3Ihr7Bk+JwOGE+Tt9gh5Khf/B7pP9fUIZO3D9gnMoKVM2shIv1PwzsgyVkjqR9002hv9r1bG2rHz8U3GyrIAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5d96e12f539f92102e3150b0a0490e4f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:29:49</sys_created_on>
+        <sys_id>5596e12f539f92102e3150b0a0490e50</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:26</sys_updated_on>
+        <ui_id>26b03fdd-4173-42b1-b394-e03bb5f402c0</ui_id>
+        <values>H4sIAAAAAAAA/+1UTWsbMRD9K0XnZVnv1nHwLaQECm0DTcilhGVWmrVFtZKqDzuu8X/vaD/s0Ma05JBT9yQ9aWbee3rsnpkYbAz+3lx5L1eaLb89ZkzqhNF6zzR0yJaMGy1kkEbXPZCxDaiYDmgppLcKdg8nhK+lEg7HbhYc1QR0bLn/7SjsLNYKGlRUeBec1Csql4J2jYCSN8X7RVVUs6ooLmYlLxdVS98FLOYF3ZsKrydy7z71SHaWdZpHuJ8mGScSrVlRZAyfAmqBNLsF5TFjHWgBwbjdEXEI4larE7CWOgySO3jy8ic1L+fzdLFFEslHP47bevRqsslIjrc2MRyQAI2aPDQqdvrLICS5jC1EFZ65HD31Q5tIJxYjpfZubbZfp4E3UvcKx0NlOKjjDgL50MSAPr0MKuyoUd2BteRObZ3ZyL6YuHT5StEmb5XZ0tAUlRx4Ip6TR5DfEP6hhx/AyaTiM7Wh4kOvvv4R09xBx8i4HkTTBc+dtOGK2m1wJHfI/ozeW6ROLGbVZXsudZf8pdS9kLfzUSv/FrXg4r8mrUi9/kdtiho9oa+HLI3a+uGvjuBjytswwQ/BEcilJyL3Cfs4/STTwY4SIPlzaGvc9yThhB1+AaVBsuZuBQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9196e12f539f92102e3150b0a0490e51</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <flow_variables_assigned>integration_succesfull</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>26b03fdd-4173-42b1-b394-e03bb5f402c0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:29:49</sys_created_on>
+        <sys_id>9996e12f539f92102e3150b0a0490e51</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:26</sys_updated_on>
+        <ui_id>4c77506b-56a8-40a2-bbb2-5c956e962b20</ui_id>
+        <values>H4sIAAAAAAAA/+1V32/aMBD+VyY/A0sgMOCtUoWEtK3SyvoyVdHFOYM1x05tB8oQ//vuSIC2mrS9r0+xv/v13Xdn5SBcE+smhpW7CUGvrZj/eOwJbRmj80FYqFDMCYm49hC1s3lopMSgGmNET2zBNOyQ0rnUoTawf+ig6OnTE3KjTemxS12Dp4wRvZgf3pjivsbcQIGGglcU/HEBJnAKXXKF6XAMYyjGo5maDdNkiKN0nBQJJNkswSQhv3Pw8sr2w/1Ltn/rhimQvXDOIFgCnC+ZatIT+BzRlkhMFLPqiQpsCdH5/QXxCOWdNVdgQ4UonWDn56B/Ue4sYT+F1LXE1na55p2ALSw3Tku8q5lli0QoTBcjnWkq+7Vth6VHBY2JZ+lVJ1wH374ezNnaBCqJNbfFPDvS6n7jdt/OnBbanhTojMZJMJcbxOh10UQMPM1Gr97K10Kf/zRTNFhR2byCutZ2ndfebfWpFDVXDdaGLgNl3I4o8mYOQLISA9IcBgvCb0/wA3jNsnyhNBTMJb9b/dTgkncGs0+gYKT6qZqk/Wyqkv5smiZ9NSnKEosim2QgjqcR5E8Nd9aK2WmSt8qTQ5Be1/GGKGyxa//4yNvfVm/fymlN/2HL3t/M+5v5f99MiVIHYrViCsvzn4YNe1o1LV9CO+d/cj9X7PgbacxOELMGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d596e12f539f92102e3150b0a0490e52</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>26b03fdd-4173-42b1-b394-e03bb5f402c0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:29:49</sys_created_on>
+        <sys_id>dd96e12f539f92102e3150b0a0490e52</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:26</sys_updated_on>
+        <ui_id>cd1e8213-1e41-4a9a-a77f-fced25b48f09</ui_id>
+        <values>H4sIAAAAAAAA/+1UTWvbQBD9K2HPQkhyZBpfSmgxBNoGmpBLCWK0GtlLV7vq7sqOa/zfO6MPxzQOKaXH3rxvPt57o4f3wnah7YK/t9feq5URi2+PkVCGMfq9FwYaFAshralUUNYUPRCJDeiOCzcm4MoBly6WoLTuHL6neqV8q2H38EabXCtdORx5W3C0PaATi/1vpbBrsdBQoqZtd8Eps6JxVdGrTqBOr2QqZ9l8liVJ9u4yLeezMs2qGSDMqG8a/DDZuPjUI9Gr/piPcD8xWVexrDSJBD4FNBUSdQ3aYyQaMBUE63ZHxCFUt0Y/A2tlAq0T3Pzk1U/aneU5N9ZIHiUOxeOzGO83wHJtlcTblgUOSIBSjzPS6q4xXwYffHmsodNhujwhnad92LJoVjFKqu/Wdvt1Ilwq0xsci9pK0McXBDpD2QX0/GFQY0OLigbalo5TtM5uVD9MWpp4pekR19puiZQzFYNk4THdCOIl4R97+AGcYhefaQ0NDzJL8EoWff5oXXBk4dCfpfjRsaDB4GilGK5BDV461YZr4tngqPoQvQzvSW5fRvQfpfEK8jpPk/x8Gi/n59J4JoevRzB7I4J8tD9MYJIk/yN4GkHliyFKo7ee/K8T+MhxGxj8kJsKpfIk5J6xm+lflgs7CoCSp9DWuu9s4Rk7/ALD80UHrwUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT IN0c2565ab539f92102e3150b0a0490ebb,1025a5ab539f92102e3150b0a0490e05,1825a5ab539f92102e3150b0a0490e00,542565ab539f92102e3150b0a0490eea,582565ab539f92102e3150b0a0490eed,5c2565ab539f92102e3150b0a0490ef0"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d3522543-bd81-441b-bff6-902cb1527e44</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>active</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Active</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:28</sys_created_on>
+        <sys_id>0c2565ab539f92102e3150b0a0490ebb</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d56f66a9-5148-468a-9b29-7714f7cb1840</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Integration Error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:29</sys_created_on>
+        <sys_id>1025a5ab539f92102e3150b0a0490e05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:23:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=e47afa3f-1f61-48f0-9810-f6bddebb464a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_succesfull</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Integration Succesfull</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:28</sys_created_on>
+        <sys_id>1825a5ab539f92102e3150b0a0490e00</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:56:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=83dda52f-c485-4497-81bc-d7b618ecbc30</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_try</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Current Try</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:28</sys_created_on>
+        <sys_id>542565ab539f92102e3150b0a0490eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:23:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=20121637-35bd-4aba-b4fc-48c31634aa82</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>retry_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Retry Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:28</sys_created_on>
+        <sys_id>582565ab539f92102e3150b0a0490eed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:23:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=81cf7d57-3c84-4499-9c23-a7e790272a8e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>retry_timeout</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Retry Timeout</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Treinamento - API Integration">b0d2a9a7539f92102e3150b0a0490e9e</model>
+        <model_id>b0d2a9a7539f92102e3150b0a0490e9e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:23:28</sys_created_on>
+        <sys_id>5c2565ab539f92102e3150b0a0490ef0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:23:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b0d2a9a7539f92102e3150b0a0490e9e^sys_idNOT IN208032675317d2102e3150b0a0490e93,248032675317d2102e3150b0a0490e96"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 23:52:48</sys_created_on>
+        <sys_id>208032675317d2102e3150b0a0490e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:52:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b0d2a9a7539f92102e3150b0a0490e9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 23:52:48</sys_created_on>
+        <sys_id>248032675317d2102e3150b0a0490e96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Treinamento - Thiago" source="x_1588982_treina_0">852b3f72535312102e3150b0a0490e20</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treinamento - Thiago">852b3f72535312102e3150b0a0490e20</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 23:52:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b0d2a9a7539f92102e3150b0a0490e9e"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b0d2a9a7539f92102e3150b0a0490e9e"/>
+</record_update>

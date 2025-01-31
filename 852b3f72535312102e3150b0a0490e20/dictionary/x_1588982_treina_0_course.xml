@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b32c73f2535312102e3150b0a0490eea" label="Course" max_length="40" name="x_1588982_treina_0_course" type="collection">
         <element label="Translated Description" max_length="4000" name="translated_description" type="string"/>
-        <element label="Name Course" max_length="250" name="name_course" type="string"/>
+        <element display="true" label="Name Course" max_length="250" name="name_course" type="string"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
     </element>
 </database>
